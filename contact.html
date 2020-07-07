@@ -3,9 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
+    <!--Bootstrap link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--Google fonts link-->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Ubuntu', sans-serif; 
+            color:darkblue  
+        }
+        .contact {
+            text-anchor: middle;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:cadetblue;">
+            <a class="navbar-brand" href="#">Grant Pardington</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="/portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="/contact.html">Contact</a>
+              </div>
+            </div>
+          </nav> 
+    </header>
+    <!--Below is all of the content for the Contact Me section of my site-->
+    <div class="contact container" style="width: 65%;">
+        <form>
+            <h1>Contact</h1>
+            <div class="form-group row">
+              <label for="inputName3" class="col-sm-2 col-form-label">Name:</label>
+              <div class="col-sm-10">
+                <input type="name" class="form-control" id="inputName3">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Email Address:</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3">
+              </div>
+            </div>
+            <!--NEED to make message blank bigger than the other blanks!!!-->
+            <div class="form-group row">
+                <label for="inputMessage3" class="col-sm-2 col-form-label">Message:</label>
+                <div class="col-sm-10">
+                  <input type="message" class="form-control" id="inputMessage3">
+                </div>
+              </div>
+            <div class="form-group row">
+              <div class="col-sm-10">
+                <button type="send" class="btn btn-primary">Send</button>
+              </div>
+            </div>
+          </form>
+        </div>
 </body>
 </html>
