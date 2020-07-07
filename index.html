@@ -2,67 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Grant Pardington</title>
     <meta name="description" content="Full Stack Web Development Student">
     <!--link a favicon here-->
     <!--link Bootstrap style sheet here-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 
 <body>
 <header>
-    <div class="outer-container">
-        <nav class="nav-container">
-            <a class="site-logo transition-link" href="/"> <!--Need to enter proper links on list below-->
-                <span class="logo-text">GP</span>
-            </a>
-            <ul class="nav-right">
-                <li class="list-item">
-                    <a class="transition=link" href="/">Home</a>
-                </li>
-                <li class="list-item">
-                    <a class="transition-link" href="/portfolio.html">Portfolio</a>
-                </li>
-                <li class="list-item">
-                    <a class="transition" href="/contact.html">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
-        ::after
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:cadetblue;">
+        <a class="navbar-brand" href="#">Grant Pardington</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="/portfolio.html">Portfolio</a>
+            <a class="nav-item nav-link" href="/contact.html">Contact</a>
+          </div>
+        </div>
+      </nav> 
 </header>
 
 <!--Below is all of the content on my home page-->
 <div class="content">
-    <section class="inner-container hero">
-        <h1>"Hello, my name is Grant. I am a Full Stack Web Development student attending the University of Denver."
-        </h1>
-        ::after
-    </section>
-    <section class="outer-container space-bottom">
+    <div class="row">
+      <div class="col">
         <img src="studentAvatar.jpeg" alt="Grant Hero">
-        ::after
-        </section>
-    <section class="inner-container space-bottom">
-        <h3>About:</h3>
-        <p>
-        I am currently a full-time Reservations Supervisor for Vail Resorts, but am studing Web Development at The University of Denver. I have wanted to learn how to code for a few years now and would love to put my skills to the test by designing and improving websites for small companies within the ski industry. Once I have completed this web development bootcamp, I would love to get to know you, so don’t hesitate to get in touch.
-        </p>
-        <h3>Services:</h3>
-        <h4>HTML</h4>
-        <p>
-        I have learned the basics of HTML and am feeling confident in my abilities to get text onto a website.
-        </p>
-        <h4>CSS</h4>
-        <p>
-        I am slowly but surely becoming quite knowledgable with the styling aspect of coding, CSS. I can make your website look exactly how you want it! 
-        </p>
-        <h4>JavaScript</h4>
-        <p>
-        I have just been introduced to the basics of JavaScript. This is what makes a website responsive. In a few weeks I will be much more confident with JavaScript skills.
-        </p>
-        ::after
-    </section>
-</div>   
+      </div>
+      <div class="col">
+        <h1>Hello! My name is Grant Pardington, and I am a Full Stack Web Development student attending the University of Denver.</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h2>About Me: </h2>
+            <p>I am currently a full-time Reservations Supervisor for Vail Resorts, but am studing Web Development at The University of Denver. I have wanted to learn how to code for a few years now and would love to put my skills to the test by designing and improving websites for small companies within the ski industry. Once I have completed this web development bootcamp, I would love to get to know you, so don’t hesitate to get in touch.</p>
+      </div>
+      <div class="col">
+        <h2>Services: </h2>
+            <h4>HTML- </h4>
+                <p>I have learned the basics of HTML and am feeling confident in my abilities to get text onto a website.</p>
+            <h4>CSS- </h4>
+                <p>I am slowly but surely becoming quite knowledgable with the styling aspect of coding, CSS. I can make your website look exactly how you want it!</p>
+            <h4>JavaScript- </h4>
+                <p>I have just been introduced to the basics of JavaScript. This is what makes a website responsive. In a few weeks I will be much more confident with JavaScript skills.</p>
+      </div>
+    </div>
+  </div>
+<footer class="footer mt-auto py-3">
+    <div class="container">
+        <span class="text-muted">Thanks for taking a look. I look forward to hearing from you!</span>
+    </div>
+</footer>
+
 </body>
 </html>
