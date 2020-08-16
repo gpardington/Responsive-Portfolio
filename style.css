@@ -40,5 +40,9 @@ h4{
 
 #contact {
     text-align: center;
-    line-height: 400%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 75vh;
 }
