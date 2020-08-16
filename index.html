@@ -7,30 +7,20 @@
     <meta name="description" content="Full Stack Web Development Student">
     <!--link Bootstrap style sheet here-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--CSS link-->
+    <link rel="stylesheet" href="style.css">
     <!--Google fonts link-->
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-    <style>
-        body {
-            font-family: 'Ubuntu', sans-serif; 
-            color:darkblue  
-        }
-        p {
-            color:cadetblue
-        }
-        h2{
-            text-decoration: underline;
-        }
-    </style>
 </head>
 
 <body>
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark navbar-expand" style="background-color:cadetblue;">
-        <a class="navbar-brand" href="index.html">Grant Pardington</a>
+      <a class="navbar-brand" id="name" href="#">Grant Pardington</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -49,35 +39,31 @@
 <div class="container-xl">
     <div class="row">
       <div class="col-4">
-        <img src="studentAvatar.jpeg" alt="Grant Hero" class="rounded-lg img-fluid">
+        <img src="Images/StudentAvatar.jpeg" alt="Grant Hero" class="rounded-lg img-fluid">
       </div>
       <div class="col-8">
         <h1>Hello! My name is Grant, and I am a Full Stack Web Development student attending the University of Denver.</h1>
       </div>
     </div>
     <div class="row">
-      <div class="col">
+      <div class="col-8 about-me">
         <h2>About Me: </h2>
-            <p>I'm currently a full-time Reservations Supervisor for Vail Resorts, but am studying Web Development at The University of Denver. If I'm not staring at a computer, you can usually find me on the ski slopes, at a concert, visiting a brewery, or hopefully catching a fish! I have wanted to learn how to code for a few years now and would love to put my skills, creativity, and attention to detail to the test by designing and improving your website. Once I've completed this web development bootcamp, I would love to get to know you. So, please don’t hesitate to get in touch!</p>
-            <p>Feel free to take a look at my <a href="https://www.linkedin.com/in/grant-pardington-15741726/">LinkedIn </a>to see my work experience.</p>
-            <p>Check out the projects I've been working on by visiting my <a href="https://github.com/gpardington">GitHub.</a></p>
+            <p>I am currently a Reservations Supervisor for Vail Resorts, but am studying Web Development at The University of Denver. As I learn more about coding, I am really excited to put my knowledge, creativity, and attention to detail to the test by designing and improving your website. Once I've completed this web development bootcamp, I would love to get to know you. Please don’t hesitate to get in touch!</p>
         </div>
-      <div class="col">
-        <h2>Services: </h2>
-            <h4>HTML- </h4>
-                <p>I have learned the basics of HTML and feel confident in my abilities to get text onto a website.</p>
-            <h4>CSS- </h4>
-                <p>I am slowly but surely becoming quite knowledgable with the styling aspect of coding, CSS. I can make your website look exactly how you want it!</p>
-            <h4>JavaScript- </h4>
-                <p>I have just been introduced to the basics of JavaScript. This is what makes a website responsive. In a few weeks I will be much more confident with my JavaScript skills.</p>
+      <div class="col-4 technologies">
+        <h2>Technologies: </h2>
+            <h4>HTML5</h4>
+            <h4>CSS3</h4>
+            <h4>JavaScript</h4>
+            <h4>jQuery</h4>
+            <h4>Bootstrap</h4>
+            <h4>Git</h4>
       </div>
     </div>
-  </div>
-  <!--Sticky footer-->
-<footer class="footer mt-auto py-3">
-    <div class="container">
-        <span class="text-muted">Thanks for stopping by. I look forward to hearing from you!</span>
+    <div class="row">
+            <p>Feel free to take a look at my <a href="https://www.linkedin.com/in/grant-pardington-15741726/">LinkedIn </a>to see my work experience.</p>
+            <p>Check out the projects I've been working on by visiting my <a href="https://github.com/gpardington">GitHub.</a></p>
     </div>
-</footer>
+  </div>
 </body>
 </html>
