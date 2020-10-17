@@ -9,6 +9,26 @@ body {
     font-size: 30px;
 }
 
+.card {
+    height: 350px;
+}
+
+.card-body {
+    background-color: cadetblue;
+}
+
+.card-text {
+    color: darkblue;
+}
+
+.image {
+    height: 200px;
+}
+
+.btn-group {
+    background-color: azure;
+}
+
 p {
     color:cadetblue;
     font-size: 20px;
@@ -36,6 +56,9 @@ h4{
 
 #portfolio {
     background-color: azure;
+}
+.portfolio-title {
+    text-decoration: underline;
 }
 
 #contact {

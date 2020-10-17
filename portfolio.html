@@ -1,147 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="generator" content="Jekyll v4.0.1">
-    <title>Portfolio</title>
-    <!--Bootstrap link-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <!--CSS link-->
-    <link rel="stylesheet" href="Assets/style.css">
-    <!--Google fonts link-->
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="Favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="Favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="Favicons/favicon-16x16.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="generator" content="Jekyll v4.0.1">
+  <title>Portfolio</title>
+  <!--Bootstrap link-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <!--CSS link-->
+  <link rel="stylesheet" href="Assets/style.css">
+  <!--Google fonts link-->
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="Favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="Favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="Favicons/favicon-16x16.png">
 </head>
 
 <body>
-    <!--NavBar-->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark d-flex" style="background-color:cadetblue;">
-        <a class="navbar-brand" id="name" href="#">Grant Pardington</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-item nav-link" href="index.html">About</a>
-              <a class="nav-item nav-link active" href="portfolio.html">Portfolio</a>
-              <a class="nav-item nav-link" href="contact.html">Contact</a>
+  <!--NavBar-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark d-flex" style="background-color:cadetblue;">
+      <a class="navbar-brand" id="name" href="#">Grant Pardington</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="index.html">About</a>
+          <a class="nav-item nav-link active" href="portfolio.html">Portfolio</a>
+          <a class="nav-item nav-link" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--Portfolio Content-->
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1 class="portfolio-title">My Portfolio</h1>
+      <p class="lead text-muted">Below are my best creations so far. Plenty more on the way!</p>
+    </div>
+  </section>
+
+  <div class="album py-5">
+    <div class="container" id="portfolio">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="image">
+              <img src="Assets/Images/WatchThis.png" alt="WatchThis!" class="card-img-top rounded-lg img-fluid">
+            </div>
+            <title>Group Project: WatchThis!</title>
+            <div class="card-body">
+              <p class="card-text">Group Project: WatchThis!</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                      href="https://young-inlet-91954.herokuapp.com/">View Application</button>
+                </div>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                      href="https://github.com/gpardington/WatchThis">View Code</button>
+                </div>
+              </div>
             </div>
           </div>
-      </nav> 
-    </header>
-  
-    <!--Portfolio Content-->
-    <section class="jumbotron text-center">
-        <div class="container">
-          <h1>My Portfolio</h1>
-          <p class="lead text-muted">Below are my best creations so far. Plenty more on the way!</p>
         </div>
-      </section>
-    
-      <div class="album py-5">
-        <div class="container" id="portfolio">
-            <div class="row">
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <title>Near Beer</title><rect width="100%" height="100%" fill="#55595c"/><img src="Assets/Images/Near-Beer-Screenshot.png" alt="Near Beer" class="rounded-lg img-fluid"></svg>
-                <div class="card-body">
-                  <p class="card-text">Group Project: Near Beer</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://mrmathews08.github.io/Near-Beer/">View Application</button>
-                    </div>
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/mrmathews08/Near-Beer">View Code</button>
-                    </div>
-                  </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="image">
+              <img src="Assets/Images/Near-Beer-Screenshot.png" alt="Near Beer"
+                class="card-img-top rounded-lg img-fluid">
+            </div>
+            <title>Near Beer</title>
+            <div class="card-body">
+              <p class="card-text">Group Project: Near Beer</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                      href="https://mrmathews08.github.io/Near-Beer/">View Application</button>
+                </div>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                      href="https://github.com/mrmathews08/Near-Beer">View Code</button>
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <title>Password Generator</title><rect width="100%" height="100%" fill="#55595c"/><img src="Assets/Images/Password-Generator-Screenshot.png" alt="Password Generator" class="rounded-lg img-fluid"></svg>
-                <div class="card-body">
-                  <p class="card-text">Password Generator</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://gpardington.github.io/Password-Generator/">View Application</button>
-                    </div>
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/gpardington/Password-Generator">View Code</button>
-                    </div>
-                  </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="image">
+              <img src="Assets/Images/Password-Generator-Screenshot.png" alt="Password Generator"
+                class="card-img-top rounded-lg img-fluid">
+            </div>
+            <title>Password Generator</title>
+            <div class="card-body">
+              <p class="card-text">Password Generator</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                      href="https://gpardington.github.io/Password-Generator/">View Application</button>
+                </div>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                      href="https://github.com/gpardington/Password-Generator">View Code</button>
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <title>Work Day Scheduler</title><rect width="100%" height="100%" fill="#55595c"/><img src="Assets/Images/Scheduler-Screenshot.png" alt="Work Day Scheduler" class="rounded-lg img-fluid"></svg>
-                <div class="card-body">
-                  <p class="card-text">Work Day Scheduler</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://gpardington.github.io/Work-Day-Scheduler/">View Application</button>
-                    </div>
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/gpardington/Work-Day-Scheduler">View Code</button>
-                    </div>
-                  </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="image">
+              <img src="Assets/Images/Eat-Da-Burger-Screenshot.png" alt="Trivia"
+                class="card-img-top rounded-lg img-fluid">
+            </div>
+            <title>Eat-Da-Burger</title>
+            <div class="card-body">
+              <p class="card-text">Eat-Da-Burger</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                      href="https://glacial-savannah-78688.herokuapp.com/">View Application</button>
+                </div>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                      href="https://github.com/gpardington/Eat-Da-Burger">View Code</button>
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <title>Eat-Da-Burger</title><rect width="100%" height="100%" fill="#55595c"/><img src="Assets/Images/Eat-Da-Burger-Screenshot.png" alt="Trivia" class="rounded-lg img-fluid"></svg>
-                <div class="card-body">
-                  <p class="card-text">Eat-Da-Burger</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://glacial-savannah-78688.herokuapp.com/">View Application</button>
-                    </div>
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/gpardington/Eat-Da-Burger">View Code</button>
-                    </div>
-                  </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="image">
+              <img src="Assets/Images/Team-Profile-Generator-Screenshot.png" alt="Team Profile Generator"
+                class="card-img-top rounded-lg img-fluid">
+            </div>
+            <title>Team Profile Generator</title>
+            <div class="card-body">
+              <p class="card-text">Team Profile Generator</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                      href="https://github.com/gpardington/Team-Profile-Generator">View Code</button>
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <title>Classic Rock Trivia</title><rect width="100%" height="100%" fill="#55595c"/><img src="Assets/Images/Classic-Rock-Trivia-Screenshot.png" alt="Trivia" class="rounded-lg img-fluid"></svg>
-                <div class="card-body">
-                  <p class="card-text">Classic Rock Trivia</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://gpardington.github.io/Trivia-Game/">View Application</button>
-                    </div>
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/gpardington/Trivia-Game">View Code</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="image">
+              <img src="Assets/Images/Classic-Rock-Trivia-Screenshot.png" alt="Trivia"
+                class="card-img-top rounded-lg img-fluid">
             </div>
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <title>Team Profile Generator</title><rect width="100%" height="100%" fill="#55595c"/><img src="Assets/Images/Team-Profile-Generator-Screenshot.png" alt="Team Profile Generator" class="rounded-lg img-fluid"></svg>
-                <div class="card-body">
-                  <p class="card-text">Team Profile Generator</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/gpardington/Team-Profile-Generator">View Code</button>
-                    </div>
-                  </div>
+            <title>Classic Rock Trivia</title>
+            <div class="card-body">
+              <p class="card-text">Classic Rock Trivia</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                      href="https://gpardington.github.io/Trivia-Game/">View Application</button>
+                </div>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                      href="https://github.com/gpardington/Trivia-Game">View Code</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </main>
+    </div>
+  </div>
+  </main>
