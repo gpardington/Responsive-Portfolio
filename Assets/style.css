@@ -1,11 +1,13 @@
 body {
     font-family: 'Ubuntu', sans-serif; 
     color:darkblue;
-    background-color: azure;  
+    background-image: linear-gradient(cadetblue, azure); 
 }
 
 #name {
-    color: darkblue;
+    background: -webkit-linear-gradient(cadetblue, azure);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 30px;
 }
 
@@ -14,11 +16,11 @@ body {
 }
 
 .card-body {
-    background-color: cadetblue;
+    background-image: linear-gradient(navy, cadetblue);
 }
 
 .card-text {
-    color: darkblue;
+    color: lightblue;
 }
 
 .image {
@@ -26,7 +28,7 @@ body {
 }
 
 .btn-group {
-    background-color: azure;
+    background-image: linear-gradient(to bottom right, cadetblue, azure);
 }
 
 p {
@@ -34,19 +36,21 @@ p {
     font-size: 20px;
 }
 
-h1{
+h1 {
     text-shadow: 2px 2px 4px rgb(116, 229, 233);
 }
-h2{
+
+h2 {
     text-decoration: underline;
     text-shadow: 2px 2px 4px rgb(116, 229, 233);
 }
-h4{
+
+h4 {
     color:cadetblue;
     line-height: 150%;
 }
 
-.technologies{
+.technologies {
     text-align: right;
 }
 
@@ -62,10 +66,10 @@ h4{
 }
 
 #contact {
+    padding: 70px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
-    height: 75vh;
+    height: 25vh;
 }
