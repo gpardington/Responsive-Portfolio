@@ -5,7 +5,7 @@ body {
 }
 
 #name {
-    background: -webkit-linear-gradient(cadetblue, azure);
+    background: -webkit-linear-gradient(cadetblue,white);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 30px;
